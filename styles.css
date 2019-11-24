@@ -28,7 +28,7 @@ body {
   cursor: pointer;
 }
 
-.sign {
+.sign, .del, .clear {
   color: #A30000;
 }
 
@@ -38,9 +38,7 @@ body {
   background-color: rgba(26, 26, 26, 0.884);
   margin: 150px auto;
   border-radius: 10px;
-}
-
-#calculator {
+  box-shadow: 10px 10px 20px rgb(22, 22, 22);
 }
 
 #result {
@@ -53,12 +51,12 @@ input {
   background-color: rgba(26, 26, 26, 0);
   color: #999999;
   border-style: none;
-  padding: 10px;
+  padding: 8px;
   height: 100px;
-  width: 300px;
+  width: 330px;
   text-align: right;
   margin-top: 60px;
-  font-size:6.5rem;
+  font-size: 6.5rem;
   font-weight: 900;
 }
 
@@ -91,6 +89,6 @@ input {
   padding: 10px;
 }
 
-#period {
+#decimal {
   grid-column: 3 / span 1;
 }
